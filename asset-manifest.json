@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/adiflow/static/js/main.0e8e8e45.chunk.js",
+    "main.js.map": "/adiflow/static/js/main.0e8e8e45.chunk.js.map",
+    "runtime-main.js": "/adiflow/static/js/runtime-main.3d8a47cd.js",
+    "runtime-main.js.map": "/adiflow/static/js/runtime-main.3d8a47cd.js.map",
+    "static/js/2.8b4d2c49.chunk.js": "/adiflow/static/js/2.8b4d2c49.chunk.js",
+    "static/js/2.8b4d2c49.chunk.js.map": "/adiflow/static/js/2.8b4d2c49.chunk.js.map",
+    "static/js/3.a8cc242b.chunk.js": "/adiflow/static/js/3.a8cc242b.chunk.js",
+    "static/js/3.a8cc242b.chunk.js.map": "/adiflow/static/js/3.a8cc242b.chunk.js.map",
+    "static/js/4.40484099.chunk.js": "/adiflow/static/js/4.40484099.chunk.js",
+    "static/js/4.40484099.chunk.js.map": "/adiflow/static/js/4.40484099.chunk.js.map",
+    "static/js/5.92234a45.chunk.js": "/adiflow/static/js/5.92234a45.chunk.js",
+    "static/js/5.92234a45.chunk.js.map": "/adiflow/static/js/5.92234a45.chunk.js.map",
+    "index.html": "/adiflow/index.html",
+    "static/js/2.8b4d2c49.chunk.js.LICENSE.txt": "/adiflow/static/js/2.8b4d2c49.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d8a47cd.js",
+    "static/js/2.8b4d2c49.chunk.js",
+    "static/js/main.0e8e8e45.chunk.js"
+  ]
+}
