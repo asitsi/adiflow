@@ -1,12 +1,12 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
 }
 
 main {
-	background-color: #322e2f;
+    background-color: #322e2f;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -16,66 +16,95 @@ main {
 
 .content {
     max-width: 450px;
-	padding: 2rem;
-	background-color: #ffffff;
-	border-radius: 10px;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
     margin: 0 2rem;
     width: -webkit-fill-available;
 }
 
 .content-header {
-	color: #322e2f;
-	padding-bottom: 1.5rem;
-	text-align: center;
+    color: #322e2f;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
 .content-main-heading {
-	margin: 0;
-	color: inherit;
+    margin: 0;
+    color: inherit;
 }
 
 .content-heading {
-	margin: 0;
-	color: rgb(97, 97, 97);
-	font-weight: normal;
+    margin: 0;
+    color: rgb(97, 97, 97);
+    font-weight: normal;
     margin-top: 0.5rem;
 }
 
 form {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
 }
 
 label {
-	display: flex;
-	flex-direction: column;
-	font-size: 0.8rem;
-	gap: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    gap: 0.25rem;
 }
 
 small {
-	color: rgb(97, 97, 97);
+    color: rgb(97, 97, 97);
 }
 
 .content-form-button {
-	outline: none;
-	border: none;
-	color: white;
-	border-radius: 4px;
-	text-align: center;
-	padding: 0.45rem 1rem;
-	font-size: 1rem;
-	background: #557d83;
-	max-width: 10rem;
-	min-width: 10rem;
-	align-self: center;
-	cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.45rem 1rem;
+    font-size: 1rem;
+    background: #557d83;
+    max-width: 10rem;
+    min-width: 10rem;
+    align-self: center;
+    cursor: pointer;
 }
 
 .content-form-button:hover {
-	opacity: 0.8;
+    opacity: 0.8;
+}
+
+.loading {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    --bg-size: 400%;
+    --color-one: hsl(219, 95%, 65%);
+    --color-two: hsl(243, 94%, 65%);
+    background: linear-gradient(90deg,
+            var(--color-one),
+            var(--color-two),
+            var(--color-one)) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: move-bg 8s infinite linear;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .loading {
+        animation: move-bg 8s linear infinite;
+    }
+
+    @keyframes move-bg {
+        to {
+            background-position: var(--bg-size) 0;
+        }
+    }
 }
 
 
@@ -88,4 +117,4 @@ small {
     .content-main-heading {
         font-size: 32px;
     }
-  }
+}
