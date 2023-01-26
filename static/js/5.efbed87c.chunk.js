@@ -1,0 +1,2 @@
+(this["webpackJsonpcaching-forms-in-react"]=this["webpackJsonpcaching-forms-in-react"]||[]).push([[5],{92:function(c,t,n){"use strict";n.r(t);n(0);var e=n(23),i=n(6);t.default=function(){return Object(i.jsxs)("div",{children:["Home",Object(i.jsx)(e.b,{to:"/contact",children:"Contact page"})]})}}}]);
+//# sourceMappingURL=5.efbed87c.chunk.js.map
